@@ -1,0 +1,1044 @@
+{
+	"pev_string_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of string variables."
+	},
+
+	"pev_classname":
+	{
+		"Type": "String",
+		"Tested Value": "player",
+		"Description": "Type of entity (Value of this controls what code handles the entity's think at pev_nextthink)"
+	},
+
+	"pev_globalname":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "This is the name of the global variable (set by an env_global entity) that can be used to control the state of the entity."
+	},
+
+	"pev_model":
+	{
+		"Type": "String",
+		"Tested Value": "models\/player\/terror\/terror.mdl",
+		"Description": "The model of the entity"
+	},
+
+	"pev_target":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "Entity that this entity is handling"
+	},
+
+	"pev_targetname":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "The name given to this entity that another entity searches for to handle it"
+	},
+
+	"pev_netname":
+	{
+		"Type": "String",
+		"Tested Value": "GHW_Chronic",
+		"Description": "Player or NPC name"
+	},
+
+	"pev_message":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": ""
+	},
+
+	"pev_noise":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "Noise variables do different things for different ents."
+	},
+
+	"pev_noise1":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "This is the move sound for doors."
+	},
+
+	"pev_noise2":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "This is the stop sound for doors."
+	},
+
+	"pev_noise3":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "This is for blocking game_player_equip and player_weaponstrip"
+	},
+
+	"pev_string_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_edict_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of edict variables."
+	},
+
+	"pev_chain":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": ""
+	},
+
+	"pev_dmg_inflictor":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": "The entity that dealt damage to this entity. (If a gun deals the damage the gun's pev_owner is the entity who dealt the damage)."
+	},
+
+	"pev_enemy":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": ""
+	},
+
+	"pev_aiment":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": "Contains the entity's index that this entity is following. This is only in effect if this ent's movetype is MOVETYPE_FOLLOW.<BR>Example:<BR>set_pev(ent,pev_movetype,MOVETYPE_FOLLOW);<BR>set_pev(ent,pev_aiment,index);"
+	},
+
+	"pev_owner":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": "Parent of this entity. For weapons this entity is the player."
+	},
+
+	"pev_groundentity":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": "The index of the entity we're standing on."
+	},
+
+	"pev_euser1":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": ""
+	},
+
+	"pev_euser2":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": ""
+	},
+
+	"pev_euser3":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": ""
+	},
+
+	"pev_euser4":
+	{
+		"Type": "Integer",
+		"Tested Value": "0",
+		"Description": ""
+	},
+
+	"pev_edict_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_float_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of float variables."
+	},
+
+	"pev_impacttime":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_starttime":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_idealpitch":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_ideal_yaw":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_pitch_speed":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_yaw_speed":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_ltime":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_nextthink":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "The time (in relevance to get_gametime()) of the next time this entity's think will be called."
+	},
+
+	"pev_gravity":
+	{
+		"Type": "Float",
+		"Tested Value": "1.000000",
+		"Description": "0.0 = No gravity<BR>1.0 = Normal Gravity<BR>Values are not limited to 0.0 through 1.0"
+	},
+
+	"pev_friction":
+	{
+		"Type": "Float",
+		"Tested Value": "1.000000",
+		"Description": "0.0 = No Friction (0 Acceleration)<BR>1.0 = Normal Friction<BR>>1.0 = Faster Acceleration + Faster Halt<BR>negative value = Constant Acceleration in backwards direction"
+	},
+
+	"pev_frame":
+	{
+		"Type": "Float",
+		"Tested Value": "158.772949",
+		"Description": "The frame of the current sequence of the current model (Starts at frame 0.0)"
+	},
+
+	"pev_animtime":
+	{
+		"Type": "Float",
+		"Tested Value": "7.223107",
+		"Description": "The time to start the animation of the sequence (if sequence is running this is set to get_gametime())"
+	},
+
+	"pev_framerate":
+	{
+		"Type": "Float",
+		"Tested Value": "1.000000",
+		"Description": "The frames per second (FPS) the current sequence is playing at"
+	},
+
+	"pev_scale":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "Doesn't affect models. Used for such things as env_sprites (stores sprite scale) or env_shooter (stores gib size)"
+	},
+
+	"pev_renderamt":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "The intensity of the render effects (0 = no effect 255 = full effect).<BR>Don't think the value of this matters when the render mode is kRenderNormal (0)"
+	},
+
+	"pev_health":
+	{
+		"Type": "Float",
+		"Tested Value": "100.000000",
+		"Description": "Health of the entity. When it reaches 0 it is destroyed."
+	},
+
+	"pev_frags":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "# of frags<BR>Scoreboard changes when the ScoreInfo message is called."
+	},
+
+	"pev_takedamage":
+	{
+		"Type": "Float",
+		"Tested Value": "2.000000",
+		"Description": "Damage multiplyer<BR>0.0 = Invincible<BR>2.0 = Normal Damage"
+	},
+
+	"pev_max_health":
+	{
+		"Type": "Float",
+		"Tested Value": "100.000000",
+		"Description": "Always set to 100 but doesn't effect entities. I think it is just for reference. Players always respawn at 100.0 but I don't know if non-player entities spawn with this much HP when DLL_Func_Spawn is called. will have to test."
+	},
+
+	"pev_teleport_time":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "? - Counts back from 2000.0 whenever I get out of the water (when the game moves your player upwards to represent climbing out)."
+	},
+
+	"pev_armortype":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "Type of armor the entity has (In CS this is the CsArmorType constants)."
+	},
+
+	"pev_armorvalue":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "Amount of armor the entity has."
+	},
+
+	"pev_dmg_take":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "Amount of damage entity was hit for."
+	},
+
+	"pev_dmg_save":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_dmg":
+	{
+		"Type": "Float",
+		"Tested Value": "2.000000",
+		"Description": "Damage type that this entity got hit by (DMG_ constants)."
+	},
+
+	"pev_dmgtime":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "On grenades, the time (in relevance to get_gametime()) at which the explosion should take place."
+	},
+
+	"pev_speed":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "Not for players. Effects change from entity to entity (IE: used for door swing speed)"
+	},
+
+	"pev_air_finished":
+	{
+		"Type": "Float",
+		"Tested Value": "19.223108",
+		"Description": "Default: get_gametime() + 12.0<BR>Number is set according to the previous equation every think unless a player is submerged under water.<BR>if(get_gametime()==pev_air_finished + x)<BR>{Deal Damage}<BR>where x is any positive integer including 0."
+	},
+
+	"pev_pain_finished":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "? - Guess would be that this is set to a gametime when you are set on fire or something of the sort."
+	},
+
+	"pev_radsuit_finished":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "? - Guess would be that this is set to a gametime for how long the radiation suit lasts for maps like rock in TFC."
+	},
+
+	"pev_maxspeed":
+	{
+		"Type": "Float",
+		"Tested Value": "250.000000",
+		"Description": "Think uses this to determine the max speed a player or monster can move at when fully accelerated."
+	},
+
+	"pev_fov":
+	{
+		"Type": "Float",
+		"Tested Value": "90.000000",
+		"Description": "Field of View<BR>Determines how many degrees of view fit on the screen.<BR>Default for players: 90.0<BR>Smaller numbers are used for scoping."
+	},
+
+	"pev_flFallVelocity":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "velocity[2] *= -1.0<BR>Opposite of Z velocity (Falling Speed)"
+	},
+
+	"pev_fuser1":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_fuser2":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[In CS]: When jump button is pressed this variable is set to 1320.0 and decreaments to 0.0. With default friction when this variable reads 0.0 the player should have the ability to accelerate like normal after landing from a jump. This variable does not affect this occurrence but monitors it."
+	},
+
+	"pev_fuser3":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_fuser4":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_float_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_int_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of integer variables."
+	},
+
+	"pev_fixangle":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "When set to 1 it forces the client to update its angles to the ones set in pev_viewangles during the next player think"
+	},
+
+	"pev_modelindex":
+	{
+		"Type": "Integer",
+		"Tested Value": "156.000000",
+		"Description": "Model index returned by precache_model."
+	},
+
+	"pev_viewmodel":
+	{
+		"Type": "Integer",
+		"Tested Value": "187258336.000000",
+		"Description": "Use pev_viewmodel2"
+	},
+
+	"pev_weaponmodel":
+	{
+		"Type": "Integer",
+		"Tested Value": "187258352.000000",
+		"Description": "Use pev_weaponmodel2"
+	},
+
+	"pev_movetype":
+	{
+		"Type": "Integer",
+		"Tested Value": "3.000000",
+		"Description": "Movement Type Constant. Further detail later"
+	},
+
+	"pev_solid":
+	{
+		"Type": "Integer",
+		"Tested Value": "3.000000",
+		"Description": "Solid Type Constant.<BR>SOLID_NOT = No clipping, No touching, No hitboxes<BR>SOLID_TRIGGER = No clipping, Touching, No hitboxes<BR>SOLID_BBOX = Clipping, Touching, Hitboxes<BR>SOLID_SLIDEBOX =  Clipping, Touching, Hitboxes, Friction when moving, Players and monsters use this<BR>SOLID_BSP = No Clipping, Touching, Hitboxes"
+	},
+
+	"pev_skin":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Selects the skin the model displays. Most models only have 1 skin (skin 0)."
+	},
+
+	"pev_body":
+	{
+		"Type": "Integer",
+		"Tested Value": "1.000000",
+		"Description": "Part of a model.<BR>pev_body = 1 shows backpack in CS"
+	},
+
+	"pev_effects":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Bitsum of preset draw effects for an entity (EF_ constants in hlsdk_const.inc)"
+	},
+
+	"pev_light_level":
+	{
+		"Type": "Integer",
+		"Tested Value": "51.000000",
+		"Description": "Amount of light shining on the entity (Used for model rendering) (0=No light 180=Fully Lit)."
+	},
+
+	"pev_sequence":
+	{
+		"Type": "Integer",
+		"Tested Value": "19.000000",
+		"Description": "Primary sequence the entity runs<BR>If player or monster this is the sequence of the lower body parts (IE: run \/ sequence 4 in CS)"
+	},
+
+	"pev_gaitsequence":
+	{
+		"Type": "Integer",
+		"Tested Value": "1.000000",
+		"Description": "Secondary sequence for monsters and players that shows upper body animation (IE: ref_aim_mp5 \/ sequence 36 in CS)"
+	},
+
+	"pev_rendermode":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "The type of rendering for the model \/ how the model is rendered."
+	},
+
+	"pev_renderfx":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "The effects added to the model rendering."
+	},
+
+	"pev_weapons":
+	{
+		"Type": "Integer",
+		"Tested Value": "-1610481664.000000",
+		"Description": "Bitsum of all currently carried weapons for a player."
+	},
+
+	"pev_deadflag":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Flags dealing with player's death status<BR>0 - alive<BR>1 -  playing death animation or still falling off of a ledge waiting to hit ground<BR>2 - dead, lying still.<BR>3 - ?<BR>4 - ?"
+	},
+
+	"pev_button":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Bit flag for what buttons are currently being held by the player<BR>IN_ constants"
+	},
+
+	"pev_impulse":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "When set it activates impulse commands during think (Resets to 0.0 after impulse occurs) (Impulses can be found in player.cpp).<BR>Non-Mod specific impulses:<BR>99 - Valve\/Sierra Logo<BR>100 - Flashlight<BR>201 - Logo Spray"
+	},
+
+	"pev_spawnflags":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Bit flag of entity's spawn flags (SF_ constants (hlsdk_const.inc))."
+	},
+
+	"pev_flags":
+	{
+		"Type": "Integer",
+		"Tested Value": "520.000000",
+		"Description": "bit flag of entity flags (FL_ constants)"
+	},
+
+	"pev_colormap":
+	{
+		"Type": "Integer",
+		"Tested Value": "1.000000",
+		"Description": ""
+	},
+
+	"pev_team":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Team of the entity (Use mod specific team constants). I think it can only be extracted as an int which may be why it is displaying 0.0 on my reading even though I was on the T team."
+	},
+
+	"pev_waterlevel":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "0 - Not in water<BR>1 - Waiding<BR>2 - Mostly submerged<BR>3 - Completely submerged"
+	},
+
+	"pev_watertype":
+	{
+		"Type": "Integer",
+		"Tested Value": "-1.000000",
+		"Description": "-1 - No water<BR>-3 - Water<BR>-4 - Slim<BR>-5 - Lava"
+	},
+
+	"pev_playerclass":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Not used in CS.<BR>Class constant in other games (IE: DODC_GARAND \/ TFC_PC_SCOUT)"
+	},
+
+	"pev_weaponanim":
+	{
+		"Type": "Integer",
+		"Tested Value": "1.000000",
+		"Description": "Sequence of the v_ model."
+	},
+
+	"pev_pushmsec":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_bInDuck":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "0 - Not in the process of ducking<BR>1 - In the process of ducking<BR>Note: if fully crouched this returns 0"
+	},
+
+	"pev_flTimeStepSound":
+	{
+		"Type": "Integer",
+		"Tested Value": "260.000000",
+		"Description": "? - Starts at 400.0 and decreases to 0.0 then resets to 400.0 and repeats constantly."
+	},
+
+	"pev_flSwimTime":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "?"
+	},
+
+	"pev_flDuckTime":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "When crouch button is pressed this variable is set to 1000.0 and decreaments to 0.0. If crouch button is released variable is instantly reset to 0.0."
+	},
+
+	"pev_iStepLeft":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Seems to control which footstep sound is played. Toggles between 1.0 and 0.0 every time a footstep sound occurs for the player."
+	},
+
+	"pev_gamestate":
+	{
+		"Type": "Integer",
+		"Tested Value": "1.000000",
+		"Description": "Don't know exactly what this does but in CS:<BR>1.0 = No Shield<BR>0.0 = Shield"
+	},
+
+	"pev_oldbuttons":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "Bit flag of the buttons that the player was pressing during the last think<BR>IN_ constants"
+	},
+
+	"pev_groupinfo":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": "?"
+	},
+
+	"pev_iuser1":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_iuser2":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_iuser3":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_iuser4":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_int_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_byte_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of byte variables."
+	},
+
+	"pev_controller_0":
+	{
+		"Type": "Integer",
+		"Tested Value": "38081536.000000",
+		"Description": ""
+	},
+
+	"pev_controller_1":
+	{
+		"Type": "Integer",
+		"Tested Value": "38081536.000000",
+		"Description": ""
+	},
+
+	"pev_controller_2":
+	{
+		"Type": "Integer",
+		"Tested Value": "38081536.000000",
+		"Description": ""
+	},
+
+	"pev_controller_3":
+	{
+		"Type": "Integer",
+		"Tested Value": "38081536.000000",
+		"Description": ""
+	},
+
+	"pev_blending_0":
+	{
+		"Type": "Integer",
+		"Tested Value": "38081704.000000",
+		"Description": ""
+	},
+
+	"pev_blending_1":
+	{
+		"Type": "Integer",
+		"Tested Value": "38081664.000000",
+		"Description": ""
+	},
+
+	"pev_byte_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_bytearray_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of byte array variables."
+	},
+
+	"pev_controller":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_blending":
+	{
+		"Type": "Integer",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_bytearray_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_vecarray_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of vector(Float:[3]) array variables."
+	},
+
+	"pev_origin":
+	{
+		"Type": "Float",
+		"Tested Value": "-832.000000",
+		"Description": "[3] Location of the entity in the map"
+	},
+
+	"pev_oldorigin":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] Doesn't seem to be used anymore"
+	},
+
+	"pev_velocity":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] Vector speed of entity"
+	},
+
+	"pev_basevelocity":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] Velocity of the conveyor we are standing."
+	},
+
+	"pev_clbasevelocity":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3]"
+	},
+
+	"pev_movedir":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] For waterjumping, a forced forward velocity so we can fly over lip of ledge."
+	},
+
+	"pev_angles":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] Angles for model rendering.<BR>[0] = Verticle (90=Looking down | -90=Looking up)<BR>[1] = Horizontal (-180\/180 = Looking backward | 90 = Looking Left | -90 = Looking Right | 0 = Looking Straight)"
+	},
+
+	"pev_avelocity":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] Rotating Velocity (More Research Coming)"
+	},
+
+	"pev_v_angle":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] Angles for player view rendering. Same numbers as angles."
+	},
+
+	"pev_endpos":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3]"
+	},
+
+	"pev_startpos":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3]"
+	},
+
+	"pev_absmin":
+	{
+		"Type": "Float",
+		"Tested Value": "-849.000000",
+		"Description": "[3] These 2 variables are used by the engine for calculations and are set automatically for all entities<BR>pev_origin[i] + pev_mins[i] - 1"
+	},
+
+	"pev_absmax":
+	{
+		"Type": "Float",
+		"Tested Value": "-815.000000",
+		"Description": "[3] pev_origin[i] + pev_maxs[i] + 1"
+	},
+
+	"pev_mins":
+	{
+		"Type": "Float",
+		"Tested Value": "-16.000000",
+		"Description": "[3] Negative distance away from the origin on each axis the entity is touchable \/ clippable"
+	},
+
+	"pev_maxs":
+	{
+		"Type": "Float",
+		"Tested Value": "16.000000",
+		"Description": "[3] Positive distance away from the origin on each axis the entity is touchable \/ clippable"
+	},
+
+	"pev_size":
+	{
+		"Type": "Float",
+		"Tested Value": "32.000000",
+		"Description": "[3] pev_size[i] = abs(pev_mins[i] - pev_maxs[i])"
+	},
+
+	"pev_rendercolor":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] = {R, G, B}<BR>Color to use with pev_rendermode"
+	},
+
+	"pev_view_ofs":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[3] Permanent version of pev_punchangle"
+	},
+
+	"pev_vuser1":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_vuser2":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_vuser3":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_vuser4":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": ""
+	},
+
+	"pev_punchangle":
+	{
+		"Type": "Float",
+		"Tested Value": "0.000000",
+		"Description": "[2] Offset of v_angles usually due to recoil or being shot. pev_punchangles decreases to 0.0 gradually\/automatically"
+	},
+
+	"pev_vecarray_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_string2_begin":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of string correction variables."
+	},
+
+	"pev_weaponmodel2":
+	{
+		"Type": "String",
+		"Tested Value": "models\/p_glock18.mdl",
+		"Description": "The weapon model other players see as the weapon being carried by the player (p_ models)"
+	},
+
+	"pev_viewmodel2":
+	{
+		"Type": "String",
+		"Tested Value": "models\/v_glock18.mdl",
+		"Description": "The weapon model displayed to the character in first person (v_ models)"
+	},
+
+	"pev_string2_end":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	},
+
+	"pev_edict2_start":
+	{
+		"Type": "Placeholder",
+		"Tested Value": "",
+		"Description": "Placeholder. Start of edict correction variables."
+	},
+
+	"pev_pContainingEntity":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": ""
+	},
+
+	"pev_absolute_end":
+	{
+		"Type": "String",
+		"Tested Value": "",
+		"Description": "Placeholder."
+	}
+}
