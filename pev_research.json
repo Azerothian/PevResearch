@@ -23,7 +23,7 @@
 	"pev_model":
 	{
 		"Type": "String",
-		"Tested Value": "models\/player\/terror\/terror.mdl",
+		"Tested Value": "models/player/terror/terror.mdl",
 		"Description": "The model of the entity"
 	},
 
@@ -528,21 +528,21 @@
 	{
 		"Type": "Integer",
 		"Tested Value": "19.000000",
-		"Description": "Primary sequence the entity runs<BR>If player or monster this is the sequence of the lower body parts (IE: run \/ sequence 4 in CS)"
+		"Description": "Primary sequence the entity runs<BR>If player or monster this is the sequence of the lower body parts (IE: run / sequence 4 in CS)"
 	},
 
 	"pev_gaitsequence":
 	{
 		"Type": "Integer",
 		"Tested Value": "1.000000",
-		"Description": "Secondary sequence for monsters and players that shows upper body animation (IE: ref_aim_mp5 \/ sequence 36 in CS)"
+		"Description": "Secondary sequence for monsters and players that shows upper body animation (IE: ref_aim_mp5 / sequence 36 in CS)"
 	},
 
 	"pev_rendermode":
 	{
 		"Type": "Integer",
 		"Tested Value": "0.000000",
-		"Description": "The type of rendering for the model \/ how the model is rendered."
+		"Description": "The type of rendering for the model / how the model is rendered."
 	},
 
 	"pev_renderfx":
@@ -577,7 +577,7 @@
 	{
 		"Type": "Integer",
 		"Tested Value": "0.000000",
-		"Description": "When set it activates impulse commands during think (Resets to 0.0 after impulse occurs) (Impulses can be found in player.cpp).<BR>Non-Mod specific impulses:<BR>99 - Valve\/Sierra Logo<BR>100 - Flashlight<BR>201 - Logo Spray"
+		"Description": "When set it activates impulse commands during think (Resets to 0.0 after impulse occurs) (Impulses can be found in player.cpp).<BR>Non-Mod specific impulses:<BR>99 - Valve/Sierra Logo<BR>100 - Flashlight<BR>201 - Logo Spray"
 	},
 
 	"pev_spawnflags":
@@ -626,7 +626,7 @@
 	{
 		"Type": "Integer",
 		"Tested Value": "0.000000",
-		"Description": "Not used in CS.<BR>Class constant in other games (IE: DODC_GARAND \/ TFC_PC_SCOUT)"
+		"Description": "Not used in CS.<BR>Class constant in other games (IE: DODC_GARAND / TFC_PC_SCOUT)"
 	},
 
 	"pev_weaponanim":
@@ -871,7 +871,7 @@
 	{
 		"Type": "Float",
 		"Tested Value": "0.000000",
-		"Description": "[3] Angles for model rendering.<BR>[0] = Verticle (90=Looking down | -90=Looking up)<BR>[1] = Horizontal (-180\/180 = Looking backward | 90 = Looking Left | -90 = Looking Right | 0 = Looking Straight)"
+		"Description": "[3] Angles for model rendering.<BR>[0] = Verticle (90=Looking down | -90=Looking up)<BR>[1] = Horizontal (-180/180 = Looking backward | 90 = Looking Left | -90 = Looking Right | 0 = Looking Straight)"
 	},
 
 	"pev_avelocity":
@@ -920,14 +920,14 @@
 	{
 		"Type": "Float",
 		"Tested Value": "-16.000000",
-		"Description": "[3] Negative distance away from the origin on each axis the entity is touchable \/ clippable"
+		"Description": "[3] Negative distance away from the origin on each axis the entity is touchable / clippable"
 	},
 
 	"pev_maxs":
 	{
 		"Type": "Float",
 		"Tested Value": "16.000000",
-		"Description": "[3] Positive distance away from the origin on each axis the entity is touchable \/ clippable"
+		"Description": "[3] Positive distance away from the origin on each axis the entity is touchable / clippable"
 	},
 
 	"pev_size":
@@ -983,7 +983,7 @@
 	{
 		"Type": "Float",
 		"Tested Value": "0.000000",
-		"Description": "[2] Offset of v_angles usually due to recoil or being shot. pev_punchangles decreases to 0.0 gradually\/automatically"
+		"Description": "[2] Offset of v_angles usually due to recoil or being shot. pev_punchangles decreases to 0.0 gradually/automatically"
 	},
 
 	"pev_vecarray_end":
@@ -1003,14 +1003,14 @@
 	"pev_weaponmodel2":
 	{
 		"Type": "String",
-		"Tested Value": "models\/p_glock18.mdl",
+		"Tested Value": "models/p_glock18.mdl",
 		"Description": "The weapon model other players see as the weapon being carried by the player (p_ models)"
 	},
 
 	"pev_viewmodel2":
 	{
 		"Type": "String",
-		"Tested Value": "models\/v_glock18.mdl",
+		"Tested Value": "models/v_glock18.mdl",
 		"Description": "The weapon model displayed to the character in first person (v_ models)"
 	},
 
