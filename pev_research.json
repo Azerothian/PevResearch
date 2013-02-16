@@ -1037,7 +1037,7 @@
 
 	"pev_absolute_end":
 	{
-		"Type": "String",
+		"Type": "Placeholder",
 		"Tested Value": "",
 		"Description": "Placeholder."
 	}
